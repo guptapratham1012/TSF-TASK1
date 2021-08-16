@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASK 1</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function myFunction() {
+      alert("WELCOME TO SPARKS FOUNDATION!\n\n\nSubmitted!");
+      clear();
+    }
+    </script>
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="updates.html">Updates</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  
+  <h1 id="abc">TO GET REGULAR UPDATES</h1>
+
+  <form>
+    <fieldset id="fff">
+      <legend style="color: white;">Details</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="email">Email Address:</label><br>
+      <input type="text" id="email" name="email" value="Doe@yahoo.com"><br><br>
+      <input type="submit" class="btn" onclick="myFunction()" value="Submit">
+    </fieldset>
+  </form>
+</body>
+</html>
